@@ -1,0 +1,843 @@
+2020-06-01 17:40:54,425 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 17:44:20,369 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 17:47:37,068 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 17:48:27,239 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 17:54:33,473 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 17:54:52,415 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 17:57:04,357 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:00:10,917 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:02:41,604 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:07:34,627 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:09:59,456 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:12:17,616 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:12:42,255 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:14:52,164 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:16:58,904 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:17:03,993 -- [base_page.py-->line:213] - ERROR: 输入文本--('xpath', '//input[@placeholder="账号"]')--失败
+2020-06-01 18:17:03,994 -- [base_page.py-->line:214] - ERROR: 'NoneType' object has no attribute 'send_keys'
+Traceback (most recent call last):
+  File "D:\python\wanwooweb\wanwoo\common\base_page.py", line 210, in input_text
+    self.driver.find_element(*locator).send_keys(text_value)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+2020-06-01 18:17:06,366 -- [test_login.py-->line:27] - INFO: 登录的用例执行完毕
+2020-06-01 18:35:00,973 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:35:06,763 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 18:38:03,564 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:38:12,265 -- [base_page.py-->line:193] - ERROR: 点击元素--('xpath', '//button[text()="高级"]')--失败
+2020-06-01 18:38:12,265 -- [base_page.py-->line:194] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()="高级"]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "D:\python\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()="高级"]"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-01 18:38:12,596 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:D:\python\wanwooweb\wanwoo\error_image\私密连接_高级_1591007892.2736983.png
+2020-06-01 18:38:14,819 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 18:39:53,067 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:40:01,706 -- [base_page.py-->line:193] - ERROR: 点击元素--('xpath', "//button[text()='高级']")--失败
+2020-06-01 18:40:01,707 -- [base_page.py-->line:194] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='高级']"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "D:\python\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='高级']"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-01 18:40:02,057 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:D:\python\wanwooweb\wanwoo\error_image\私密连接_高级_1591008001.7117858.png
+2020-06-01 18:40:04,267 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 18:42:00,975 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:42:09,721 -- [base_page.py-->line:193] - ERROR: 点击元素--('id', "//*[@id='details-button']")--失败
+2020-06-01 18:42:09,721 -- [base_page.py-->line:194] - ERROR: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="//*[@id='details-button']"]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "D:\python\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="//*[@id='details-button']"]"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-01 18:42:10,091 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:D:\python\wanwooweb\wanwoo\error_image\私密连接_高级_1591008129.729927.png
+2020-06-01 18:42:12,278 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 18:45:45,734 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:45:49,430 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 18:45:49,455 -- [base_page.py-->line:193] - ERROR: 点击元素--('id', '//*[@id="proceed-link"]')--失败
+2020-06-01 18:45:49,455 -- [base_page.py-->line:194] - ERROR: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "D:\python\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-01 18:45:49,803 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:D:\python\wanwooweb\wanwoo\error_image\私密连接_继续前往_1591008349.4583347.png
+2020-06-01 18:45:52,086 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 18:46:28,139 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 18:46:31,840 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 18:46:36,568 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 18:46:36,688 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 18:46:36,888 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 18:46:36,949 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 18:46:36,949 -- [test_login.py-->line:50] - INFO: 用例执行通过
+2020-06-01 18:46:39,127 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 21:10:14,600 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 21:10:18,633 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 21:10:27,585 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 21:10:27,720 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 21:10:27,944 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 21:10:28,026 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 21:10:28,027 -- [test_login.py-->line:50] - INFO: 用例执行通过
+2020-06-01 21:10:30,278 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 21:19:18,965 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 21:19:22,900 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 21:19:28,012 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 21:19:28,149 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 21:19:28,331 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 21:19:28,404 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 21:19:28,409 -- [test_login.py-->line:50] - INFO: 用例执行通过
+2020-06-01 21:19:31,465 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 21:45:46,801 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 21:45:53,079 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 21:47:42,436 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 21:47:48,095 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 21:48:42,339 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 21:48:48,047 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 21:49:06,065 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 21:49:09,868 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 21:49:18,551 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 21:49:18,674 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 21:49:18,885 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 21:49:18,976 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 21:49:22,179 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 21:50:00,672 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 21:50:04,278 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 21:50:10,407 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 21:50:10,508 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 21:50:10,640 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 21:50:10,711 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 21:50:11,900 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--获取文本成功
+2020-06-01 21:50:11,901 -- [test_login.py-->line:50] - INFO: 用例执行通过
+2020-06-01 21:50:14,793 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 23:19:05,642 -- [test_new_organization.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 23:19:09,404 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 23:19:15,851 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 23:19:15,995 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 23:19:16,228 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 23:19:16,328 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 23:19:19,798 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--点击成功
+2020-06-01 23:19:21,114 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-01 23:19:21,850 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-01 23:19:22,444 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-01 23:19:22,555 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-01 23:19:22,710 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-01 23:19:22,710 -- [test_new_organization.py-->line:45] - ERROR: 用例执行失败
+2020-06-01 23:19:22,711 -- [test_new_organization.py-->line:46] - ERROR: assert '登录成功' == None
+Traceback (most recent call last):
+  File "D:\python\wanwooweb\wanwoo\testcase\test_new_organization.py", line 43, in test_new_organization_name
+    assert '登录成功' == res
+AssertionError: assert '登录成功' == None
+2020-06-01 23:19:24,941 -- [test_new_organization.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 23:21:32,785 -- [test_new_organization.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 23:21:36,664 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 23:21:42,978 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 23:21:43,143 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 23:21:43,356 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 23:21:43,456 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 23:21:46,791 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--点击成功
+2020-06-01 23:21:47,907 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-01 23:21:48,891 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-01 23:21:49,681 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-01 23:21:49,824 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-01 23:21:50,123 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-01 23:21:50,123 -- [test_new_organization.py-->line:49] - INFO: 用例执行通过
+2020-06-01 23:21:52,306 -- [test_new_organization.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 23:22:22,925 -- [test_new_organization.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 23:22:26,561 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 23:22:32,259 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 23:22:32,378 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 23:22:32,582 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 23:22:32,681 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 23:22:35,492 -- [base_page.py-->line:193] - ERROR: 点击元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--失败
+2020-06-01 23:22:35,492 -- [base_page.py-->line:194] - ERROR: Message: element click intercepted: Element <span data-v-f69e11dc="" class="btn-span">...</span> is not clickable at point (393, 25). Other element would receive the click: <div role="alert" class="el-message el-message--error" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "D:\python\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-f69e11dc="" class="btn-span">...</span> is not clickable at point (393, 25). Other element would receive the click: <div role="alert" class="el-message el-message--error" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-01 23:22:35,969 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:D:\python\wanwooweb\wanwoo\error_image\点击大屏的配置中心_1591024955.4970846.png
+2020-06-01 23:22:38,243 -- [test_new_organization.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 23:23:17,296 -- [test_new_organization.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 23:23:20,966 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 23:23:27,757 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 23:23:27,896 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 23:23:28,113 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 23:23:28,223 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 23:23:30,578 -- [base_page.py-->line:193] - ERROR: 点击元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--失败
+2020-06-01 23:23:30,578 -- [base_page.py-->line:194] - ERROR: Message: element click intercepted: Element <span data-v-f69e11dc="" class="btn-span">...</span> is not clickable at point (393, 25). Other element would receive the click: <p class="el-message__content">...</p>
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "D:\python\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-f69e11dc="" class="btn-span">...</span> is not clickable at point (393, 25). Other element would receive the click: <p class="el-message__content">...</p>
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-01 23:23:30,981 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:D:\python\wanwooweb\wanwoo\error_image\点击大屏的配置中心_1591025010.5799613.png
+2020-06-01 23:23:33,265 -- [test_new_organization.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 23:25:24,593 -- [test_new_organization.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 23:25:28,334 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 23:25:37,068 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 23:25:37,225 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 23:25:37,409 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 23:25:37,470 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 23:25:41,031 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--点击成功
+2020-06-01 23:25:42,290 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-01 23:25:43,078 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-01 23:25:43,713 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-01 23:25:43,860 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-01 23:25:44,089 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-01 23:25:44,089 -- [test_new_organization.py-->line:49] - INFO: 用例执行通过
+2020-06-01 23:25:46,313 -- [test_new_organization.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 23:26:17,601 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 23:26:21,421 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 23:26:29,010 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 23:26:29,246 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 23:26:29,582 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 23:26:29,700 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 23:26:30,721 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--获取文本成功
+2020-06-01 23:26:30,721 -- [test_login.py-->line:50] - INFO: 用例执行通过
+2020-06-01 23:26:32,914 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 23:26:37,176 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 23:26:41,147 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 23:26:55,730 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 23:26:55,866 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 23:26:56,081 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 23:26:56,195 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 23:26:57,094 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--获取文本成功
+2020-06-01 23:26:57,094 -- [test_login.py-->line:50] - INFO: 用例执行通过
+2020-06-01 23:26:59,374 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-01 23:26:59,375 -- [test_new_organization.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-01 23:27:02,945 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-01 23:27:10,305 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-01 23:27:10,420 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-01 23:27:10,619 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-01 23:27:10,703 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-01 23:27:14,099 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--点击成功
+2020-06-01 23:27:15,934 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-01 23:27:16,670 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-01 23:27:17,160 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-01 23:27:17,313 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-01 23:27:17,561 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-01 23:27:17,562 -- [test_new_organization.py-->line:49] - INFO: 用例执行通过
+2020-06-01 23:27:19,732 -- [test_new_organization.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-02 00:08:44,492 -- [test_new_organization.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-02 00:08:48,540 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 00:08:54,886 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 00:08:55,240 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 00:08:55,689 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 00:08:55,839 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 00:09:04,027 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--点击成功
+2020-06-02 00:09:06,235 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-02 00:09:08,053 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-02 00:09:08,999 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 00:09:09,198 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 00:09:09,580 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 00:09:09,581 -- [test_new_organization.py-->line:49] - INFO: 用例执行通过
+2020-06-02 00:09:11,916 -- [test_new_organization.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-02 00:10:17,053 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-02 00:10:21,324 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 00:10:28,675 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 00:10:28,865 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 00:10:29,145 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 00:10:29,282 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 00:10:33,299 -- [base_page.py-->line:157] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--获取文本成功
+2020-06-02 00:10:33,300 -- [test_login.py-->line:50] - INFO: 用例执行通过
+2020-06-02 00:10:35,664 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-02 00:13:17,148 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-02 00:13:21,491 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 00:13:26,006 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 00:13:26,009 -- [base_page.py-->line:213] - ERROR: 输入文本--('xpath', '//input[@placeholder="账号"]')--失败
+2020-06-02 00:13:26,010 -- [base_page.py-->line:214] - ERROR: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "D:\python\wanwooweb\wanwoo\common\base_page.py", line 210, in input_text
+    self.driver.find_element(*locator).send_keys(text_value)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 00:13:28,426 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-02 00:13:28,427 -- [test_new_organization.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-02 00:19:01,852 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-02 00:19:06,746 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 00:19:08,461 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 00:19:08,463 -- [base_page.py-->line:213] - ERROR: 输入文本--('xpath', '//input[@placeholder="账号"]')--失败
+2020-06-02 00:19:08,463 -- [base_page.py-->line:214] - ERROR: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "D:\python\wanwooweb\wanwoo\common\base_page.py", line 210, in input_text
+    self.driver.find_element(*locator).send_keys(text_value)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 00:19:10,814 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-02 00:19:10,815 -- [test_new_organization.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-02 12:05:56,048 -- [test_new_organization.py-->line:21] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:08:26,698 -- [test_new_organization.py-->line:21] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:08:32,194 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 12:08:34,333 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 12:08:35,071 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 12:08:35,307 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 12:08:35,365 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 12:08:38,032 -- [test_new_organization.py-->line:28] - INFO: 增加组织架构用例执行完毕
+2020-06-02 12:09:02,234 -- [test_new_organization.py-->line:21] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:09:07,248 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 12:09:09,296 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 12:09:09,492 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 12:09:09,676 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 12:09:09,807 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 12:09:12,660 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--点击成功
+2020-06-02 12:09:13,907 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-02 12:09:14,608 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-02 12:09:15,132 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 12:09:15,217 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 12:09:15,305 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 12:09:15,305 -- [test_new_organization.py-->line:49] - INFO: 用例执行通过
+2020-06-02 12:09:17,586 -- [test_new_organization.py-->line:28] - INFO: 增加组织架构用例执行完毕
+2020-06-02 12:23:30,352 -- [test_new_organization.py-->line:22] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:23:35,216 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 12:23:37,150 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 12:23:37,286 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 12:23:37,533 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 12:23:37,633 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 12:23:40,570 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--点击成功
+2020-06-02 12:23:41,575 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-02 12:23:42,165 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-02 12:23:42,745 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 12:23:42,858 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 12:23:43,206 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 12:23:48,240 -- [base_page.py-->line:193] - ERROR: 点击元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--失败
+2020-06-02 12:23:48,240 -- [base_page.py-->line:194] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[1]/div[5]/div/span"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[1]/div[5]/div/span"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 12:23:48,641 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\点击大屏的配置中心_1591071828.2470965.png
+2020-06-02 12:23:51,973 -- [test_new_organization.py-->line:29] - INFO: 增加组织架构用例执行完毕
+2020-06-02 12:28:25,903 -- [test_new_organization.py-->line:22] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:28:30,361 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 12:28:32,244 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 12:28:32,404 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 12:28:32,597 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 12:28:32,758 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 12:28:35,892 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--点击成功
+2020-06-02 12:28:36,825 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-02 12:28:37,476 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-02 12:28:38,015 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 12:28:38,162 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 12:28:38,294 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 12:28:41,199 -- [base_page.py-->line:193] - ERROR: 点击元素--点击大屏的配置中心--失败
+2020-06-02 12:28:41,199 -- [base_page.py-->line:194] - ERROR: 'NoneType' object has no attribute 'click'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+AttributeError: 'NoneType' object has no attribute 'click'
+2020-06-02 12:28:44,791 -- [test_new_organization.py-->line:29] - INFO: 增加组织架构用例执行完毕
+2020-06-02 12:45:38,065 -- [test_new_organization.py-->line:23] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:45:42,916 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 12:45:44,874 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 12:45:45,207 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 12:45:45,376 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 12:45:45,487 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 12:45:48,343 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--点击成功
+2020-06-02 12:45:49,299 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-02 12:45:50,009 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-02 12:45:50,564 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 12:45:50,813 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 12:45:51,198 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 12:45:52,266 -- [base_page.py-->line:193] - ERROR: 点击元素--组织架构管理-新增--失败
+2020-06-02 12:45:52,267 -- [base_page.py-->line:194] - ERROR: Message: element click intercepted: Element <button data-v-7d58681f="" type="button" class="el-button btn el-button--default">...</button> is not clickable at point (30, 182). Other element would receive the click: <div data-v-03f4ea95="" data-v-7d58681f="" class="el-dialog__wrapper" style="z-index: 2008;">...</div>
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-7d58681f="" type="button" class="el-button btn el-button--default">...</button> is not clickable at point (30, 182). Other element would receive the click: <div data-v-03f4ea95="" data-v-7d58681f="" class="el-dialog__wrapper" style="z-index: 2008;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 12:45:52,588 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\组织架构管理-新增_1591073152.2731974.png
+2020-06-02 12:45:56,408 -- [test_new_organization.py-->line:31] - INFO: 增加组织架构用例执行完毕
+2020-06-02 12:46:59,386 -- [test_new_organization.py-->line:23] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:47:04,456 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 12:47:06,126 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 12:47:06,292 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 12:47:06,492 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 12:47:06,573 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 12:47:08,320 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--点击成功
+2020-06-02 12:47:13,390 -- [base_page.py-->line:193] - ERROR: 点击元素--点击配置中心的系统设置--失败
+2020-06-02 12:47:13,390 -- [base_page.py-->line:194] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="oneLvMenus"]/li[6]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="oneLvMenus"]/li[6]"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 12:47:14,140 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\点击配置中心的系统设置_1591073233.3910382.png
+2020-06-02 12:47:16,988 -- [test_new_organization.py-->line:31] - INFO: 增加组织架构用例执行完毕
+2020-06-02 12:47:23,642 -- [test_new_organization.py-->line:23] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:47:28,172 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 12:47:29,991 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 12:47:30,080 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 12:47:30,192 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 12:47:30,289 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 12:47:31,692 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/div[1]/div[1]/div[5]/div/span')--点击成功
+2020-06-02 12:47:36,772 -- [base_page.py-->line:193] - ERROR: 点击元素--点击配置中心的系统设置--失败
+2020-06-02 12:47:36,772 -- [base_page.py-->line:194] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="oneLvMenus"]/li[6]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="oneLvMenus"]/li[6]"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 12:47:37,637 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\点击配置中心的系统设置_1591073256.8006015.png
+2020-06-02 12:47:40,265 -- [test_new_organization.py-->line:31] - INFO: 增加组织架构用例执行完毕
+2020-06-02 12:48:27,804 -- [test_new_organization.py-->line:23] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:48:32,287 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 12:48:34,142 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 12:48:34,324 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 12:48:34,539 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 12:48:34,638 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 12:48:36,722 -- [base_page.py-->line:193] - ERROR: 点击元素--大屏_点击配置中心--失败
+2020-06-02 12:48:36,722 -- [base_page.py-->line:194] - ERROR: Message: element click intercepted: Element <div data-v-358e9dd0="" class="leftBtn">...</div> is not clickable at point (396, 28). Other element would receive the click: <div role="alert" class="el-message el-message--error" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div data-v-358e9dd0="" class="leftBtn">...</div> is not clickable at point (396, 28). Other element would receive the click: <div role="alert" class="el-message el-message--error" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 12:48:37,106 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\大屏_点击配置中心_1591073316.7248712.png
+2020-06-02 12:48:39,686 -- [test_new_organization.py-->line:31] - INFO: 增加组织架构用例执行完毕
+2020-06-02 12:49:34,673 -- [test_new_organization.py-->line:23] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:49:39,136 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 12:49:41,015 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 12:49:41,219 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 12:49:41,395 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 12:49:41,496 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 12:49:43,860 -- [base_page.py-->line:193] - ERROR: 点击元素--大屏_点击配置中心--失败
+2020-06-02 12:49:43,860 -- [base_page.py-->line:194] - ERROR: Message: element click intercepted: Element <span data-v-358e9dd0="" class="btn-span">...</span> is not clickable at point (394, 25). Other element would receive the click: <div role="alert" class="el-message el-message--error el-message-fade-leave-active el-message-fade-leave-to" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-358e9dd0="" class="btn-span">...</span> is not clickable at point (394, 25). Other element would receive the click: <div role="alert" class="el-message el-message--error el-message-fade-leave-active el-message-fade-leave-to" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 12:49:44,291 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\大屏_点击配置中心_1591073383.8620079.png
+2020-06-02 12:49:47,306 -- [test_new_organization.py-->line:31] - INFO: 增加组织架构用例执行完毕
+2020-06-02 12:51:02,281 -- [test_new_organization.py-->line:23] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:51:07,275 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 12:51:08,969 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 12:51:09,125 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 12:51:09,309 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 12:51:09,445 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 12:51:11,556 -- [base_page.py-->line:193] - ERROR: 点击元素--大屏_点击配置中心--失败
+2020-06-02 12:51:11,556 -- [base_page.py-->line:194] - ERROR: Message: element click intercepted: Element <img data-v-358e9dd0="" src="/static/images/Navbar/logo_customized.png" onerror="this.src=&quot;/static/images/Navbar/logo.gif&quot;" class="image navBarImg"> is not clickable at point (636, 43). Other element would receive the click: <div role="alert" class="el-message el-message--error" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <img data-v-358e9dd0="" src="/static/images/Navbar/logo_customized.png" onerror="this.src=&quot;/static/images/Navbar/logo.gif&quot;" class="image navBarImg"> is not clickable at point (636, 43). Other element would receive the click: <div role="alert" class="el-message el-message--error" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 12:51:11,993 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\大屏_点击配置中心_1591073471.5707607.png
+2020-06-02 12:51:14,757 -- [test_new_organization.py-->line:31] - INFO: 增加组织架构用例执行完毕
+2020-06-02 12:58:40,471 -- [test_new_organization.py-->line:23] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:58:45,009 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 12:58:46,877 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 12:58:47,062 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 12:58:47,292 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 12:58:47,464 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 12:58:49,884 -- [base_page.py-->line:193] - ERROR: 点击元素--大屏_点击配置中心--失败
+2020-06-02 12:58:49,884 -- [base_page.py-->line:194] - ERROR: Message: element click intercepted: Element <span data-v-358e9dd0="" class="btn-span">...</span> is not clickable at point (394, 25). Other element would receive the click: <div role="alert" class="el-message el-message--error el-message-fade-leave-active el-message-fade-leave-to" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 190, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-358e9dd0="" class="btn-span">...</span> is not clickable at point (394, 25). Other element would receive the click: <div role="alert" class="el-message el-message--error el-message-fade-leave-active el-message-fade-leave-to" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 12:58:50,317 -- [base_page.py-->line:255] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\大屏_点击配置中心_1591073929.8887815.png
+2020-06-02 12:58:52,868 -- [test_new_organization.py-->line:31] - INFO: 增加组织架构用例执行完毕
+2020-06-02 12:59:43,191 -- [test_new_organization.py-->line:23] - INFO: 开始执行增加组织架构用例
+2020-06-02 12:59:47,906 -- [base_page.py-->line:199] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 12:59:49,922 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 12:59:50,193 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 12:59:50,330 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 12:59:50,473 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 12:59:53,341 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//span[text()="配置中心"]')--点击成功
+2020-06-02 12:59:54,046 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-02 12:59:54,748 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-02 12:59:55,290 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 12:59:55,376 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 12:59:55,478 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 12:59:56,147 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 12:59:56,236 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 12:59:56,328 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 12:59:57,318 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 12:59:57,386 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 12:59:57,505 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 12:59:58,210 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 12:59:58,291 -- [base_page.py-->line:223] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 12:59:58,440 -- [base_page.py-->line:199] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 12:59:58,441 -- [test_new_organization.py-->line:61] - INFO: 用例执行通过
+2020-06-02 13:00:00,793 -- [test_new_organization.py-->line:31] - INFO: 增加组织架构用例执行完毕
+2020-06-02 17:34:42,014 -- [test_login.py-->line:21] - INFO: 开始执行登录的用例
+2020-06-02 17:34:48,005 -- [base_page.py-->line:195] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 17:34:49,997 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 17:34:50,137 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 17:34:50,298 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 17:34:50,389 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 17:34:51,604 -- [base_page.py-->line:153] - INFO: 元素--('xpath', '//span[text()="配置中心"]')--获取文本成功
+2020-06-02 17:34:51,604 -- [test_login.py-->line:50] - INFO: 用例执行通过
+2020-06-02 17:34:54,076 -- [test_login.py-->line:28] - INFO: 登录的用例执行完毕
+2020-06-02 17:42:12,690 -- [test_new_organization.py-->line:22] - INFO: 开始执行登录的用例
+2020-06-02 17:42:19,194 -- [base_page.py-->line:195] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 17:42:19,424 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 17:42:21,377 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 17:42:21,572 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 17:42:21,713 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 17:42:24,130 -- [base_page.py-->line:189] - ERROR: 点击元素--大屏_点击配置中心--失败
+2020-06-02 17:42:24,130 -- [base_page.py-->line:190] - ERROR: Message: element click intercepted: Element <span data-v-358e9dd0="" class="btn-span">...</span> is not clickable at point (394, 25). Other element would receive the click: <div role="alert" class="el-message el-message--error el-message-fade-leave-active el-message-fade-leave-to" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 186, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-358e9dd0="" class="btn-span">...</span> is not clickable at point (394, 25). Other element would receive the click: <div role="alert" class="el-message el-message--error el-message-fade-leave-active el-message-fade-leave-to" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 17:42:24,597 -- [base_page.py-->line:251] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\大屏_点击配置中心_20200602 17:42:24.png
+2020-06-02 17:42:28,190 -- [test_new_organization.py-->line:30] - INFO: 登录的用例执行完毕
+2020-06-02 17:43:08,367 -- [test_new_organization.py-->line:22] - INFO: 开始执行登录的用例
+2020-06-02 17:43:13,706 -- [base_page.py-->line:195] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 17:43:15,394 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 17:43:15,622 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 17:43:15,816 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 17:43:15,925 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 17:43:18,196 -- [base_page.py-->line:189] - ERROR: 点击元素--大屏_点击配置中心--失败
+2020-06-02 17:43:18,196 -- [base_page.py-->line:190] - ERROR: Message: element click intercepted: Element <span data-v-358e9dd0="" class="btn-span">...</span> is not clickable at point (394, 25). Other element would receive the click: <div role="alert" class="el-message el-message--error el-message-fade-leave el-message-fade-leave-active" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 186, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span data-v-358e9dd0="" class="btn-span">...</span> is not clickable at point (394, 25). Other element would receive the click: <div role="alert" class="el-message el-message--error el-message-fade-leave el-message-fade-leave-active" style="top: 20px; z-index: 2000;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 17:43:18,765 -- [base_page.py-->line:251] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\大屏_点击配置中心_20200602 17:43:18.png
+2020-06-02 17:43:21,554 -- [test_new_organization.py-->line:30] - INFO: 登录的用例执行完毕
+2020-06-02 17:45:25,357 -- [test_new_organization.py-->line:22] - INFO: 开始执行登录的用例
+2020-06-02 17:45:30,294 -- [base_page.py-->line:195] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 17:45:32,423 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 17:45:32,568 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 17:45:32,690 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 17:45:32,770 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 17:45:34,354 -- [base_page.py-->line:105] - INFO: 元素--('xpath', '//span[text()="配置中心"]')--可点击等待成功,等待时间1.5829041004180908秒
+2020-06-02 17:45:39,432 -- [base_page.py-->line:189] - ERROR: 点击元素--点击配置中心的系统设置--失败
+2020-06-02 17:45:39,432 -- [base_page.py-->line:190] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="oneLvMenus"]/li[6]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 186, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="oneLvMenus"]/li[6]"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 17:45:39,839 -- [base_page.py-->line:251] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\点击配置中心的系统设置_20200602 17:45:39.png
+2020-06-02 17:45:42,536 -- [test_new_organization.py-->line:30] - INFO: 登录的用例执行完毕
+2020-06-02 17:46:14,198 -- [test_new_organization.py-->line:22] - INFO: 开始执行登录的用例
+2020-06-02 17:46:19,337 -- [base_page.py-->line:195] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 17:46:21,202 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 17:46:21,306 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 17:46:21,487 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 17:46:21,572 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 17:46:22,532 -- [base_page.py-->line:105] - INFO: 元素--('xpath', '//span[text()="配置中心"]')--可点击等待成功,等待时间0.9444754123687744秒
+2020-06-02 17:46:27,587 -- [base_page.py-->line:189] - ERROR: 点击元素--点击配置中心的系统设置--失败
+2020-06-02 17:46:27,587 -- [base_page.py-->line:190] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="oneLvMenus"]/li[6]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 186, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="oneLvMenus"]/li[6]"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 17:46:27,950 -- [base_page.py-->line:251] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\点击配置中心的系统设置_20200602 17:46:27.png
+2020-06-02 17:46:30,521 -- [test_new_organization.py-->line:30] - INFO: 登录的用例执行完毕
+2020-06-02 17:48:50,983 -- [test_new_organization.py-->line:22] - INFO: 开始执行登录的用例
+2020-06-02 17:48:55,694 -- [base_page.py-->line:195] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 17:48:58,973 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 17:48:59,092 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 17:48:59,253 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 17:48:59,375 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 17:49:00,544 -- [base_page.py-->line:105] - INFO: 元素--('xpath', '//span[text()="配置中心"]')--可点击等待成功,等待时间1.1684892177581787秒
+2020-06-02 17:49:05,643 -- [base_page.py-->line:189] - ERROR: 点击元素--点击配置中心的系统设置--失败
+2020-06-02 17:49:05,643 -- [base_page.py-->line:190] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="oneLvMenus"]/li[6]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 186, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="oneLvMenus"]/li[6]"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 17:49:06,025 -- [base_page.py-->line:251] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\点击配置中心的系统设置_20200602 17:49:05.png
+2020-06-02 17:49:09,044 -- [test_new_organization.py-->line:30] - INFO: 登录的用例执行完毕
+2020-06-02 17:57:37,460 -- [test_new_organization.py-->line:22] - INFO: 开始执行登录的用例
+2020-06-02 17:57:42,054 -- [base_page.py-->line:195] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 17:57:43,985 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 17:57:44,227 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 17:57:44,407 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 17:57:44,477 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 17:57:46,248 -- [base_page.py-->line:105] - INFO: 元素--('xpath', '//span[text()="配置中心"]')--可点击等待成功,等待时间0.27078962326049805秒
+2020-06-02 17:57:51,267 -- [base_page.py-->line:189] - ERROR: 点击元素--点击配置中心的系统设置--失败
+2020-06-02 17:57:51,267 -- [base_page.py-->line:190] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="oneLvMenus"]/li[6]"}
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 186, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="oneLvMenus"]/li[6]"}
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 17:57:51,659 -- [base_page.py-->line:251] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\点击配置中心的系统设置_20200602 17:57:51.png
+2020-06-02 17:57:54,387 -- [test_new_organization.py-->line:30] - INFO: 登录的用例执行完毕
+2020-06-02 17:58:22,753 -- [test_new_organization.py-->line:22] - INFO: 开始执行登录的用例
+2020-06-02 17:58:27,521 -- [base_page.py-->line:195] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 17:58:29,449 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 17:58:29,809 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 17:58:30,423 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 17:58:30,506 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 17:58:33,042 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//span[text()="配置中心"]')--点击成功
+2020-06-02 17:58:34,244 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-02 17:58:35,044 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-02 17:58:35,853 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 17:58:36,124 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 17:58:36,322 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 17:58:37,001 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 17:58:37,169 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 17:58:37,401 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 17:58:38,486 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 17:58:38,644 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 17:58:38,874 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 17:58:39,644 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 17:58:39,871 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 17:58:40,057 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 17:58:40,057 -- [test_new_organization.py-->line:58] - INFO: 用例执行通过
+2020-06-02 17:58:43,443 -- [test_new_organization.py-->line:30] - INFO: 登录的用例执行完毕
+2020-06-02 18:01:35,733 -- [test_new_organization.py-->line:22] - INFO: 开始执行登录的用例
+2020-06-02 18:01:41,227 -- [base_page.py-->line:195] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 18:01:42,972 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 18:01:43,137 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 18:01:43,318 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 18:01:43,404 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 18:01:46,377 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//span[text()="配置中心"]')--点击成功
+2020-06-02 18:01:47,478 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-02 18:01:48,275 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-02 18:01:49,043 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 18:01:49,229 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 18:01:49,375 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 18:01:50,608 -- [base_page.py-->line:189] - ERROR: 点击元素--组织架构管理-新增--失败
+2020-06-02 18:01:50,609 -- [base_page.py-->line:190] - ERROR: Message: element click intercepted: Element <button data-v-24b40d5c="" type="button" class="el-button btn el-button--default">...</button> is not clickable at point (30, 182). Other element would receive the click: <div data-v-66cc1972="" data-v-24b40d5c="" class="el-dialog__wrapper" style="z-index: 2007;">...</div>
+  (Session info: chrome=83.0.4103.61)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\wanwooweb\wanwoo\common\base_page.py", line 186, in click_element
+    self.driver.find_element(*locator).click()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-24b40d5c="" type="button" class="el-button btn el-button--default">...</button> is not clickable at point (30, 182). Other element would receive the click: <div data-v-66cc1972="" data-v-24b40d5c="" class="el-dialog__wrapper" style="z-index: 2007;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+2020-06-02 18:01:50,959 -- [base_page.py-->line:251] - INFO: 错误页面截图成功，图表保存的路径:C:\Users\Administrator\Desktop\wanwooweb\wanwoo\error_image\组织架构管理-新增_20200602 18:01:50.png
+2020-06-02 18:01:54,206 -- [test_new_organization.py-->line:30] - INFO: 登录的用例执行完毕
+2020-06-02 22:05:14,762 -- [test_new_organization.py-->line:22] - INFO: 开始执行登录的用例
+2020-06-02 22:05:19,790 -- [base_page.py-->line:195] - INFO: 元素--('xpath', "//*[@id='details-button']")--点击成功
+2020-06-02 22:05:23,909 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="proceed-link"]')--点击成功
+2020-06-02 22:05:24,101 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="账号"]')--成功
+2020-06-02 22:05:24,305 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//input[@placeholder="密码"]')--成功
+2020-06-02 22:05:24,389 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="app"]/section/main/div/div[3]/div[3]/form/button')--点击成功
+2020-06-02 22:05:26,550 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//span[text()="配置中心"]')--点击成功
+2020-06-02 22:05:27,558 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="oneLvMenus"]/li[6]')--点击成功
+2020-06-02 22:05:28,438 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[3]/div/div[1]/div/ul/li[2]')--点击成功
+2020-06-02 22:05:28,931 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 22:05:29,046 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 22:05:29,356 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 22:05:30,075 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 22:05:30,212 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 22:05:30,395 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 22:05:31,090 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 22:05:31,239 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 22:05:31,479 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 22:05:31,992 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div[1]/button[1]')--点击成功
+2020-06-02 22:05:32,172 -- [base_page.py-->line:219] - INFO: 文本内容输入--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[2]/form/div[1]/div/span/span/div/input')--成功
+2020-06-02 22:05:32,431 -- [base_page.py-->line:195] - INFO: 元素--('xpath', '//*[@id="loadPageDiv"]/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]/span/button[1]')--点击成功
+2020-06-02 22:05:32,432 -- [test_new_organization.py-->line:58] - INFO: 用例执行通过
+2020-06-02 22:05:34,641 -- [test_new_organization.py-->line:30] - INFO: 登录的用例执行完毕
